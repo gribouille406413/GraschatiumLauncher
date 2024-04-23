@@ -9,7 +9,7 @@
   "bugs": {
     "url": "https://github.com/gribouille406413/GraschatiumLauncher/issues"
   },
-  "private": true,
+  "private": false,
   "main": "index.js",
   "scripts": {
     "start": "electron .",
