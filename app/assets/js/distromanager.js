@@ -4,7 +4,7 @@ const ConfigManager = require('./configmanager')
 
 // Old Graschatium url.
 // exports.REMOTE_DISTRO_URL = 'https://graschatiumdistro.000webhostapp.com/distribution.json'
-exports.REMOTE_DISTRO_URL = 'https://graschatiumdistro.000webhostapp.com/distribution.json'
+exports.REMOTE_DISTRO_URL = 'https://graschatiumdistro.000webhostapp.com/httpdocs/nebula/distribution.json'
 
 const api = new DistributionAPI(
     ConfigManager.getLauncherDirectory(),
