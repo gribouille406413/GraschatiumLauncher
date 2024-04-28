@@ -13,5 +13,4 @@ const api = new DistributionAPI(
     exports.REMOTE_DISTRO_URL,
     false
 )
-
 exports.DistroAPI = api
